@@ -1,8 +1,26 @@
 aid: orca-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orca-bio.png
 name: Orca Bio
-description: 'Orca Bio is a company surfaced as a portfolio company of 8vc, dcvc, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: biotech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Orca Bio is a late-stage biotechnology company developing high-precision
+  allogeneic cell therapies for the treatment of cancer and autoimmune diseases. Its
+  approach engineers purified cell populations, including regulatory T cells, to improve
+  patient outcomes while reducing the risks associated with traditional allogeneic
+  transplant. Its flagship product, TREGZI, is described as the first FDA-approved
+  precision-engineered cell therapy for allogeneic transplant in adults with hematological
+  malignancies. Orca Bio is backed by 8vc, DCVC and Lightspeed Venture Partners. The
+  company publishes no public API or developer platform; this profile captures its
+  identity within the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/orca-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Biotech
+- Cell Therapy
+- Immunotherapy
+- Oncology
+- Healthcare
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +50,12 @@ maintainers:
 common:
 - type: Website
   url: https://orcabio.com
+- type: Blog
+  url: https://orcabio.com/newsroom/
+- type: Support
+  url: https://orcabio.com/contact-us/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
